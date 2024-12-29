@@ -2,8 +2,8 @@ package com.chat.chat;
 import jakarta.websocket.*;
 import jakarta.websocket.server.ServerEndpoint;
 
-@ServerEndpoint("/chatEndPoint")
-public class ChatEndPoint {
+@ServerEndpoint("/textEndPoint")
+public class TextEndPoint {
 
     @OnOpen
     public void onOpen(Session session) {

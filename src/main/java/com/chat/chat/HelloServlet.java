@@ -14,6 +14,9 @@ public class HelloServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        double[] t = new double[]{4,5};
+        System.out.println("####### : " +t[0]);
         response.setContentType("text/html");
 
         // Hello

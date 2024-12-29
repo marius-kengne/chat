@@ -56,12 +56,13 @@
   function startChat() {
     const userName = document.getElementById("userName").value.trim();
     if (userName) {
-      localStorage.setItem("userName", userName); // Sauvegarde du nom dans le stockage local
-      window.location.href = "chat.html"; // Redirige vers la page de chat
+      const targetURL = "chat.jsp?username=" + encodeURIComponent(userName);
+      window.location.href = targetURL;
     } else {
       alert("Veuillez entrer votre nom !");
     }
   }
 </script>
+
 </body>
 </html>
