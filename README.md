@@ -1,4 +1,5 @@
 # chat
+Application de chat en temps réel permettant à plusieurs utilisateurs de se connecter et de communiquer via WebSocket. Les utilisateurs entrent leurs noms avant d’accéder au chat.
 
 ### Interface d'indentification 
 
